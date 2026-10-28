@@ -65,3 +65,7 @@ The workshop supports two tracks — follow the one that matches your preferred 
 ## License
 
 MIT
+
+## Maintenance verification
+
+The workflow installs the locked dependencies and builds the Astro starter on each main-branch push. It publishes the existing workshop documentation only when GitHub Pages is already configured for this repository. Pages was not configured during the October 2026 review, so publication is intentionally skipped; a green build does not mean this workshop has a live website. The dependency refresh does not turn this tutorial starter into an independently authored product.
